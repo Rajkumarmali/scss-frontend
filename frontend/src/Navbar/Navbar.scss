@@ -1,0 +1,28 @@
+@import './NavbarVariable.scss';
+
+.navbar {
+    background-color: $B;
+    height: $h;
+    border: $bd;
+}
+
+ul {
+    list-style: $n;
+    padding-left: $pl;
+    padding-top: $pt;
+    margin: 0;
+    display: $f;
+    align-items: $c;
+}
+
+input {
+    height: 21px;
+    width: 258px;
+}
+
+.nav {
+    text-decoration: none;
+    color: $LW;
+    margin-left: $ml;
+    margin-top: $mt;
+}

@@ -1,0 +1,34 @@
+@import './FooterVariable.scss';
+
+.footer{
+    font-size: $FS16;
+    font-weight: $FW400;
+    background-color: $AB;
+    height: $H452;
+    display: flex;
+    justify-content: space-between;
+    color: $W;
+    line-height: 12px;
+    li{
+    line-height: $LH20;
+    font-size: $FS13;
+    margin-top: $MT11;
+    list-style: none;
+    color: $AT;
+    }
+    .fot-1{
+        margin-top: $MT11;
+    margin-left: $ML261;
+    width: $W173
+    }
+    .fot-2{
+        margin-top: $MT72;
+        margin-left: -$ML128;
+        width: $W173;
+
+    }
+    .fot-3{
+        margin-top: $MT148;
+        margin-right: $MR318;
+    }
+}

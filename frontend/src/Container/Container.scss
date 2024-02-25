@@ -1,0 +1,251 @@
+@import './ContainerVarible.scss';
+
+.con-head {
+    font-size: $XL;
+    line-height: $LH60;
+    font-weight: $FW400;
+    height: $H60;
+    margin-left: $ML284;
+    size: $S48;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    padding-left: $PL284;
+    color:  $Ind;
+}
+
+.li {
+    padding-left: $PL18;
+}
+
+hr {
+    margin-left: $ML284;
+    color: $PB;
+    height: 1.33px;
+    width: $W1024;
+}
+
+.top {
+    size: $S22;
+    font-weight: $FW400;
+    height: $H20;
+    margin-left: $ML428;
+    line-height: $LH14;
+    color: $SG;
+}
+
+.tools {
+    padding-left: 262px;
+    display: flex;
+    list-style: none;
+    
+    li {
+        margin-left: $ML51;
+        background-color: $W;
+        color: $EB;
+        font-weight: $FW400;
+        line-height: $LH20;
+    }
+}
+
+.homepart {
+    padding-top: $PT24;
+    padding-left: $PL293;
+    display: flex;
+    list-style: none;
+    
+    li {
+        margin-left: $ML10;
+        color: $EB;
+    }
+}
+
+.sec-1 {
+    display: flex;
+}
+
+.sec-1-1 {
+    margin-top: $MT72;
+    margin-left: $ML261;
+    width: $W173;
+    
+    img {
+        margin-top: $MT31;
+        margin-left: $ML83;
+        height: $H141;
+        width: $W103;
+    }
+    
+    h6 {
+        color: $MG;
+        margin-left: $ML107;
+    }
+}
+
+.sec-1-2 {
+    margin-left: $ML97;
+    margin-top: -$ML10;
+    width: $W494;
+}
+
+.sec-1-3 {
+    margin-left: $ML109;
+    
+    .div {
+        width: $W135;
+        text-align: center;
+        color: $DC;
+        background-color: $AB;
+        height: $H91;
+    }
+    
+    button {
+        border-radius: $BR12;
+        height: $H48;
+        border: none;
+        background-color: $DB;
+        width: $W232;
+        margin-left: -46px;
+        margin-top: $MT60;
+        color: $W;
+    }
+}
+
+.btn-choice {
+    color: $W;
+    padding: $P10;
+    border: none;
+    background-color: #FF7724;
+    margin-left: $ML280;
+    margin-top: $MT60;
+    border-radius: 0 8px 8px 0;
+}
+
+.h3 {
+    color: $MG;
+    margin-left: 275px;
+    border: $PB 1px;
+    border-radius: 50%;
+}
+
+.sec-1-2-1 {
+    border-radius: $BR12;
+    margin-left: $ML12;
+    color: $EB;
+    background-color: $Se;
+    list-style: none;
+    margin-top: -$MT15;
+    
+    li {
+        margin-left:  $ML12;
+    }
+}
+
+.sec-1-p {
+    color: $Ind;
+    list-style: circle;
+    
+    li {
+        margin-left: $ML16;
+    }
+}
+
+.last-sec {
+    margin-right: $MR100;
+    margin-left: $ML331;
+    justify-content: space-between;
+    display: flex;
+    
+    img {
+        height: $H103;
+        width: $W141;
+    }
+    
+    h6 {
+        color: $DC;
+        list-style: none;
+        display: flex;
+        
+        li {
+            text-align: center;
+            border-radius: 8px;
+            height: $H16;
+            width: $W68;
+            background: $So;
+            margin: $M10;
+        }
+    }
+    
+    h5 {
+        margin-top: -$MT15;
+        margin-left: $ML77;
+        font-weight: $FW400;
+        color: $MG;
+        font-size: $FS12;
+    }
+    
+    h4 {
+        margin-top: $MT7;
+        font-size: $FS20;
+        font-weight: $FW400;
+        color: $SGrey;
+        
+        h5 {
+            font: initial;
+            color: $GC;
+        }
+    }
+    
+    p {
+        width: $W284;
+        font-weight: $FW400;
+        line-height: 24px;
+        color: $MG;
+    }
+}
+
+.view-deal {
+    border-radius: $BR12;
+    height: $H48;
+    border: none;
+    background-color: $DB;
+    width: $W232;
+    margin-left: -$ML11;
+    margin-top: -$MT11;
+    color: $W;
+}
+
+.sign {
+    background-color: $AB;
+    margin-top: $MT72;
+    justify-content: center;
+    display: flex;
+    margin-left: $ML181;
+    h1 {
+        width: $W398;
+        line-height: $LH44;
+        color: $SGrey;
+    }
+    
+    input {
+        height: $H48;
+        margin-top: $MT60;
+        color: $W;
+        height: $H48;
+        width: $W348;
+        border: none;
+        margin-left: $ML130;
+    }
+    
+    button {
+        margin-left: -$ML6;
+        width: $W97;
+        background-color: $DB;
+        color: $W;
+        height: $H48;
+        border-radius: 0 12px 12px 0;
+        border: 0px;
+    }
+}
